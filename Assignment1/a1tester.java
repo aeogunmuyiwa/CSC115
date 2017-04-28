@@ -9,12 +9,8 @@
  * provided good code coverage and that all 'edge cases' were, in fact,
  * tested.
  *
- * When your code has failed one of the test cases, you should look at the what the
- * tester is doing prior to failing the test.  Try to determine which of your methods
- * has the bug in it.  Just because the tester is reporting that you failed the result
- * of a particular method (i.e. get) doesn't mean the bug is in the get method.
- *
- * J. Corless, September 2016
+ 
+ 
  */
 public class a1tester
 {
