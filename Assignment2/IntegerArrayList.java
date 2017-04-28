@@ -10,7 +10,7 @@
  * This results in O(N) performance for both addBack and 
  * addFront.
  *
- * J. Corless, May 2014
+
  */
 
 public class IntegerArrayList implements IntegerList
