@@ -3,10 +3,7 @@
  *
  * A definition of the List ADT that can store items of type int
  *
- * Later in the course we'll see how to implement a List that can
- * store items of an arbitrary type.
- *
- * J. Corless, May 2014
+ 
  */
 
 public interface IntegerList
