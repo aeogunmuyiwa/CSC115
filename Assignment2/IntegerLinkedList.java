@@ -3,14 +3,6 @@
  *
  * This is the "stub" implementation of the IntegerList interface
  * provided to you as part of assignment 2.
- * 
- * Your task is to complete the implementation of all the methods
- * such that they meet the specifications defined both in 
- * IntegerList.java and in the assignment PDF.
- *
- * Except for the constructor, you should remove all the supplied code
- * from the methods and replace it with working code.  The supplied code
- * in the methods is just so that this file compiles and runs.
  *
  */
 
