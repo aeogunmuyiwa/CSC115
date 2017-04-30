@@ -8,12 +8,6 @@
  * at all times, more care would need to be taken to ensure the test cases 
  * provided good code coverage and that all 'edge cases' were, in fact,
  * tested.
- *
- * When your code has failed one of the test cases, you should look at the what the
- * tester is doing prior to failing the test.  Try to determine which of your methods
- * has the bug in it.  Just because the tester is reporting that you failed the result
- * of a particular method (i.e. get) doesn't mean the bug is in the get method.
- *
  */
 
 import java.util.Random;
@@ -28,8 +22,7 @@ public class a4tester
 		/* There is some magic going on here getting the line number 
 		 * Borrowed from:
 		 * http://blog.taragana.com/index.php/archive/core-java-how-to-get-java-source-code-line-number-file-name-in-code/
-		 *
-		 * Once we've discussed Exceptions in more detail this won't be required.		 
+		 *	 
 		*/
 		if (passed)
 		{
