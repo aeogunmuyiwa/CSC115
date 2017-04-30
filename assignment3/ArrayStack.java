@@ -14,18 +14,13 @@ public class ArrayStack<T> implements Stack<T>
 	 */
 	private	int position;
 	
-	// This is a not-recommended way of getting
-	// around the restriction on using arrays
-	// of generic types.
 	//
 	// The recommended practice is to use
 	// ArrayList<T> in the standard 
 	// library provides all the services you need.  
 	//
-	// Sometimes the standard library is not available
-	// or appropriate (mostly in memory or processor 
-	// constrained environments which can use a subset
-	// of the Java services).  
+	
+	
 	private Object[] storage;
 	
 	public ArrayStack()
