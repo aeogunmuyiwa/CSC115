@@ -3,21 +3,7 @@
  *
  * An implementation of a node class for a doubly-linked list of integers.
  *
- * This implementation does not make the instance variables private because
- * Jason prefers to write things like:
- *
- *	n.next = null; 
- * 	n.prev.next = p;
- *
- * Rather than:
- *
- *	n.setNext(null);
- *	n.getPrev().setNext(p);
- * 
- * In this assignment, and on exams, you are free to use whichever 
- * method you find most comfortable.
- *
- * J. Corless, May 2014
+
  */
 
 public class IntegerNode
