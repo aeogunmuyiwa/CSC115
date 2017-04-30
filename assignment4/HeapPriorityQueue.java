@@ -1,7 +1,7 @@
 /*
  * HeapPriorityQueue.java
  *
- * CSC 115: Assignment 4 sample code.
+ * CSC 115: Assignment 4 
  *
  * Comments from the sample solution:
  *
@@ -11,17 +11,7 @@
  * 
  * However, this implementation maintains the 
  * complete binary tree as a protected array, not a distinct class.
- *
- * I have also removed the Comparator from the code.  It is a
- * good practice to make a Priority Queue generic, but I think it
- * makes the code too complicated for our purposes.
- *
- * Instead, we will rely on the Comparable interface that is implemented
- * by Objects and their subclasses (although if you define your own class
- * you will need to implement the compareTo method to return something
- * meaningfull)
- *
- * I have also removed the Entry interface.  This priority queue only deals
+ *  This priority queue only deals
  * with keys.
  */
 
@@ -35,24 +25,19 @@ public class HeapPriorityQueue implements PriorityQueue
 	/* Keep track of the current number of elements in the heap */
 	protected int currentSize;
 			
-	/* You do not need to change this constructor */
+	
 	public HeapPriorityQueue () 
 	{
 		this(DEFAULT_SIZE);
 	}
 
-	/* You do not need to change this constructor */
 	public HeapPriorityQueue(int size)
 	{
 		storage = new Comparable[size + 1];
 		currentSize = 0;
 	}
 	
-	/*
-	 * You need to change the implementation of every public method
- 	 * below this comment.
-	 *
-	 */
+	
 	public int size ()
 	{
 		return currentSize;
@@ -90,10 +75,7 @@ public class HeapPriorityQueue implements PriorityQueue
 		bubbleUp();
 	}
 
-	/* Your instructor's solution used the following helper methods
-	 * 
-	 * You do not need to use the same methods, but you may want to.
-	 */
+	
 		
 	/* 
 	 * A new value has just been added to the bottom of the heap
@@ -173,9 +155,6 @@ public class HeapPriorityQueue implements PriorityQueue
 	}
 	
 	/*
-	 * Given the current number of elements in the heap, does the
-	 * node at pos have a left child?
-	 *
 	 * Note that all internal nodes have at least a left child.
 	 *
 	 */
