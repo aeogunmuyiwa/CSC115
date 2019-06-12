@@ -12,3 +12,4 @@ The course will cover the following topics:
     The efficiency of common searching and sorting approaches
 
 123
+123
