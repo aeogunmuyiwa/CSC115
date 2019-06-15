@@ -12,3 +12,7 @@ The course will cover the following topics:
 
     The efficiency of common searching and sorting approaches
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4f99d9158060419f25f93c942f3041689b49ac02
